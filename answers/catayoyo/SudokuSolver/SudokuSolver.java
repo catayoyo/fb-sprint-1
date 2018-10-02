@@ -34,7 +34,13 @@ public class Sudoku {
     private int[][] board;
     private static final int EMPTY = 0;
     private static final int SIZE = 9;
-    public Sudoku(int[] board) {this.board = new int [SIZE][SIZE];}
+    public Sudoku(int[] board) 
+    {
+        this.board = new int [SIZE][SIZE];
+        for (int i = 0; i < SIZE; i++)
+        for (int j = 0; j < SIZE; j++)
+        this.board[i][j] = GRID_TO_SOLVE[i][j];
+    }
     private boolean isInRow(int row, int number) {
         for(int i = 0; i < SIZE; i++)
             if (board[row][i] == number)
