@@ -1,4 +1,4 @@
-# # Introduction to Middleware with Java
+# Introduction to Middleware with Java
 
 ## Day 1
 
