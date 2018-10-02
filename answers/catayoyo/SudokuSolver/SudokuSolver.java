@@ -12,7 +12,7 @@ public class Main {
         {0,0,0,2,0,0,9,0,0},
         {0,0,1,9,0,4,5,7,0}
     };
-    
+      
     public static void main(String[]args) {
         Sudoku sudoku = new Sudoku(GRID_TO_SOLVE);
         System.out.println("Sudoku grid to solve");
